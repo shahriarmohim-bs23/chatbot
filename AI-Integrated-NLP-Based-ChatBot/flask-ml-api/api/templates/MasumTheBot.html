@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/favicon/favicon-32x32.png') }}"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/favicon/favicon-16x16.png') }}"/>
+    <link rel="manifest" href="{{ url_for('static', filename='images/favicon/site.webmanifest') }}"/>
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="MobileOptimized" content="320">
+    <meta name="description" content="Smart Study Solution">
+    <meta name="keywords" content="chatbot,ai,artificial,intelligence,NLP,speech to text,smart,talking bot,bot">
+    <meta name="author" content="abdullahmasum6035@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/MasumTheBot.css') }}"/>
+    <title>Smart Study Mate</title>
+</head>
+<body>
+
+<main>
+    <section class="bot-intro">
+        <h2>Your Smart Study Mate</h2>
+    </section>
+    &nbsp;
+    <section class="glass">
+        <div class="chat-section">
+            <div class="chat-view"></div>
+            &nbsp;
+            <div class="type-section">
+                <input id="my-text" class="input-field" placeholder="Ask Your Query Here ..." type="text" name="msg">
+                <i class="fa fa-paper-plane option-i" onclick="message_send()" style="cursor:pointer;"></i>
+            </div>
+        </div>
+    </section>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3" id="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+    <div class="rectangle1" id="rectangle1"></div>
+    <div class="rectangle2" id="rectangle2"></div>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    let sideImage = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41];
+    let profile = ['masumthebot.jpg', 'Abedur.jpeg', 'mohim.jpg', 'nihon.jpg', 'anik.jpg'];
+    let dir = 'static/images/';
+    let imgExtension = '.jpg'
+
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+    }
+
+    function changeImage(profile, sideImg) {
+        $('.rectangle1').css('backgroundImage', 'url(' + dir + sideImage[1] + imgExtension + ')');
+        $('.rectangle2').css('backgroundImage', 'url(' + dir + sideImage[sideImage.length - 2] + imgExtension + ')');
+        $('.circle1').css('backgroundImage', 'url(' + dir + profile[0] + ')');
+        $('.circle2').css('backgroundImage', 'url(' + dir + profile[1] + ')');
+        $('.circle3').css('backgroundImage', 'url(' + dir + profile[2] + ')');
+        $('.circle4').css('backgroundImage', 'url(' + dir + profile[3] + ')');
+        $('.circle5').css('backgroundImage', 'url(' + dir + profile[4] + ')');
+    }
+
+    function getBotResponse() {
+        var myText = $("#my-text").val();
+        var userBubble = '&nbsp;<div class="input-container"><div class="input-msg">' + myText + '</div></div>';
+        $("#my-text").val("");
+        $(".chat-view").append(userBubble);
+        $(".chat-view").stop().animate({scrollTop: $(".chat-view")[0].scrollHeight}, 1000);
+
+        $.get("/get", {msg: myText}).done(function (data) {
+            var botBubble = '&nbsp;<div class="bot-container"><div class="bot-msg">' + data + '</div></div>&nbsp; ';
+            $(".chat-view").append(botBubble);
+            $(".chat-view").stop().animate({scrollTop: $(".chat-view")[0].scrollHeight}, 1000);
+        });
+    }
+
+    $("#my-text").keypress(function (e) {
+        shuffleArray(sideImage);
+        shuffleArray(profile);
+        if (e.which == 13) {
+            getBotResponse();
+            changeImage(profile, sideImage);
+        }
+    });
+</script>
+
+</body>
+</html>

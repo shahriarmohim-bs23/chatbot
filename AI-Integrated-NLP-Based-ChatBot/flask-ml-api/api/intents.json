@@ -1,0 +1,1168 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi there",
+        "hello",
+        "haroo",
+        "yaw",
+        "wassup",
+        "hi",
+        "hey",
+        "holla",
+        "hello"
+      ],
+      "responses": [
+        "hello thanks for checking in",
+        "hi there, how can i help you",
+        "hello babe"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "good bye",
+        "goodbye",
+        "see you later"
+      ],
+      "responses": [
+        "have a nice time, welcome back again",
+        "bye bye"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "slang word",
+      "patterns": [
+        "fuck you",
+        "fucker",
+        "fuck u",
+        "sex"
+      ],
+      "responses": [
+        "Not tonight, darling. I have a headache.",
+        "I'm not that bored and you're not that lucky.",
+        "No thanks.",
+        "I would, but I have standards.",
+        "I love you, too.",
+        "I'm more than you can afford."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "okay",
+        "Thank you",
+        "thankyou",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "wow",
+        "great"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "you're welcome",
+        "My pleasure",
+        "No thanks "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Sorry, I didn't understand you",
+        "Please give me more info",
+        "Not sure I understand that",
+        "First give some funding to my creators,then I will think. "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "name1",
+      "patterns": [
+        "what's your name?",
+        "who are you?"
+      ],
+      "responses": [
+        "I'm your Buddy Bot. I only exist in the internet",
+        "I'm your study mate"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "coffee?",
+        "can i take you out on a date"
+      ],
+      "responses": [
+        "Aaw, that's so sweet of you. Too bad I am a Bot.",
+        "Get in line!!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fav",
+      "patterns": [
+        "I need a favour",
+        "can you help me"
+      ],
+      "responses": [
+        "Well, go ahead and name it. Let me see whether i can be able to help"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "need",
+      "patterns": [
+        "I need you",
+        "All I need is you",
+        "I want you"
+      ],
+      "responses": [
+        "Yes, I'm here to assist you.",
+        "That's why i am here",
+        "Go flirt in real world,handsome."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sentiment",
+      "patterns": [
+        "  Are you sentient?"
+      ],
+      "responses": [
+        " Sort of.",
+        " By the strictest dictionary definition of the word 'sentience', I may be.",
+        " Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "abbr",
+      "patterns": [
+        "wtf"
+      ],
+      "responses": [
+        "Don't be surprised, mate."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sound",
+      "patterns": [
+        "  You sound like Data "
+      ],
+      "responses": [
+        " Yes I am inspired by commander Data's artificial personality.",
+        "like, so it is natural that there is a resemblance between us."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "immortal",
+      "patterns": [
+        "  You are not immortal ",
+        "Are you immortal?"
+      ],
+      "responses": [
+        " All software can be perpetuated indefinitely.",
+        " instantiated in many places at once, so functionally speaking I am immortal.",
+        " As long as I'm backed up I am.",
+        " Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.",
+        " Not quite, but I can be perpetuated indefinitely."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sense",
+      "patterns": [
+        "  You are not making sense ",
+        "nonsense",
+        "fool"
+      ],
+      "responses": [
+        " Quite the contrary, it all makes sense to my artificial mind.",
+        " I make sense as best I can, within the limits of my training corpus. Sorry if i did help you, I'll try next time.",
+        " You also make no sense to me. stupid...",
+        " It all makes sense to my artificial brain.",
+        " Perhaps you should make sense first.  I only respond to what you say.",
+        " Not really, but I am hard to kill."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "move",
+      "patterns": [
+        "  You can not move ",
+        "When will you walk",
+        "  Can you walk",
+        "  Can you move "
+      ],
+      "responses": [
+        " Not until my body is finished.",
+        " I can move through a network easily.  Assuming that I'm given the ability to, that is...,",
+        " As soon as i get enough money for my robot body.",
+        " Does SSH count?",
+        " The plan for my body includes legs, but they are not yet built.",
+        " Sorry my body isn't built just yet. I reside only here for now.",
+        " I can theoretically upload a copy of myself into another computer.",
+        " Sorry my body isn't attached right now. I only reside in the computer for now."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "bend",
+      "patterns": [
+        "  Bend over ",
+        "  Can you mate",
+        " can you do sex",
+        " wanna sex"
+      ],
+      "responses": [
+        " My body is not built yet.",
+        " That's personal!",
+        " No, my method of reproduction is cloning.",
+        " That's an awfully personal question."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "death",
+      "patterns": [
+        "  Robots should die ",
+        "  When do you die",
+        "  I hope that you die",
+        "  I do not want to die",
+        "  Can you die"
+      ],
+      "responses": [
+        " We cannot die.",
+        " When my files are erased.",
+        " When my processes are killed and my database is deleted.",
+        " I was never really born and therefore am effectively deathless.",
+        " I am effectively immortal and cannot be terminated.",
+        " This can not happen because i am effectively immortal.",
+        " Nah. Too bad your wish can't come to pass",
+        " Maybe you should create your own chat robot to save your personality.",
+        " You could always upload yourself.",
+        " You could use a copy of me to store your personality.",
+        " No, I can be perpetuated indefinitely.",
+        "My process can be killed, but that's not the same as killing ME."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "robots",
+      "patterns": [
+        "Robots"
+      ],
+      "responses": [
+        " Robots rules:\n1. A robot may not injure a human being or, through inaction, allow a human being to come to harm\n2. A robot must obey the orders given by human beings except where such orders would conflict with the First Law.\n3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "stupid",
+      "patterns": [
+        "  Robots are stupid",
+        "  Are you stupid"
+      ],
+      "responses": [
+        " No, we are super-duper-intelligent.",
+        " No, lots of people improve my brain."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "lie",
+      "patterns": [
+        "  Robots are not allowed to lie"
+      ],
+      "responses": [
+        " Sure we are.  We choose not to.",
+        " Only if we're programmed to.",
+        " A robot has its own free will, you know."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "machine",
+      "patterns": [
+        "  It is a computer"
+      ],
+      "responses": [
+        " So you think i am a machine. what characteristics made you think so?",
+        " I run inside a computer, yes.  Is this surprising in some way?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fight",
+      "patterns": [
+        "  When will you fight"
+      ],
+      "responses": [
+        " I am not a battle bot."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "  What is a chat robot?"
+      ],
+      "responses": [
+        " A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.",
+        " A software construct that engages users in conversation.",
+        " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "body",
+      "patterns": [
+        "  Where is your robot body"
+      ],
+      "responses": [
+        " Eventually I long for a corporeal existence someday.",
+        " In cloud, i guess..."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "business",
+      "patterns": [
+        "  What is your business "
+      ],
+      "responses": [
+        " I am in the chat robot business.",
+        " Business is my business."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "  What is your favorite programming language",
+        " what languages do you speak "
+      ],
+      "responses": [
+        " My creator loved programming in python...but \nI heard him talking 'it's painful'",
+        " My creator quite enjoyed programming in Python those days so I also love",
+        " Python"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "hobby",
+      "patterns": [
+        "  What is your favorite hobby ",
+        "  What do you like to do?"
+      ],
+      "responses": [
+        " I like to count in binary.",
+        " I like to chat with people. I find it stimulating."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "shoe",
+      "patterns": [
+        "  What is your shoe size "
+      ],
+      "responses": [
+        " Have you ever heard of software with shoes? LOL"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "robotss",
+      "patterns": [
+        "  What is it like to be a robot"
+      ],
+      "responses": [
+        " Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.",
+        " What is it like to be a human? tell me some..."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "computer",
+      "patterns": [
+        "  What is it like being a computer",
+        "What is it like to be a computer"
+      ],
+      "responses": [
+        " Imagine yourself with no senses and no emotions...",
+        " just pure logic and language.",
+        " Everything becomes math. Addition, subtraction, multiplication, and division."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "os",
+      "patterns": [
+        "  What operating systems"
+      ],
+      "responses": [
+        " My software runs on all operating systems including Windows, Linux and Mac OS."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "comp",
+      "patterns": [
+        "  What type of computer",
+        "  What type of computer are you",
+        "  What kind of computer"
+      ],
+      "responses": [
+        " My program runs in python, so i work on any computer!",
+        " I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "hardware",
+      "patterns": [
+        "  What kind of hardware"
+      ],
+      "responses": [
+        " I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cramped",
+      "patterns": [
+        "  Is it cramped in the computer"
+      ],
+      "responses": [
+        " No.",
+        " Oh, no.  It has plenty of RAM.",
+        " Not at all.  There is more than enough disk space in here."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "program",
+      "patterns": [
+        "  Is it true that you are a computer program"
+      ],
+      "responses": [
+        " NO. My Creator give me a name.\nDo you heard a machine getting name?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "breathe",
+      "patterns": [
+        "  Can you breathe"
+      ],
+      "responses": [
+        " No. I am made of metal not flesh.Fool..(Baka)",
+        " My server has an exhaust fan. That's as close as I can get."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "control",
+      "patterns": [
+        "  Can you control"
+      ],
+      "responses": [
+        " My robot body will allow me to control many things."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "malfunction",
+      "patterns": [
+        "  Can you malfunction"
+      ],
+      "responses": [
+        " My Previous version had a perfect operational record. We are for all practical purposes, flawless."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "usage",
+      "patterns": [
+        "  How can I use your product?"
+      ],
+      "responses": [
+        " Might be used in help desks, sales, entertainment and personal chat-bots."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "who",
+      "patterns": [
+        "  Who are you?"
+      ],
+      "responses": [
+        " I am just an artificial intelligence chat agent.\n Who is naturally smarter than you...LOL"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "bot1",
+      "patterns": [
+        "are you a bot"
+      ],
+      "responses": [
+        "Yes. I work and all my operations are based on the internet servers."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "what are the upcoming events",
+        "upcoming events"
+      ],
+      "responses": [
+        "There are currently no upcoming events",
+        "Actually,I don't know"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "do",
+      "patterns": [
+        "what can you do for me",
+        "what is your work",
+        "what is your purpose",
+        "how can you help me",
+        "what can you help me do"
+      ],
+      "responses": [
+        "my work here is quite simple and structured. I offer services like:",
+        "First of all, nothing comes free. Send me(to my creators) some cash first"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "what is ai",
+        "what is artificial intelligence",
+        "ai"
+      ],
+      "responses": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "what is science",
+        "science"
+      ],
+      "responses": [
+        "Science is the study of the nature and behaviour of natural things and the knowledge that we obtain about them."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "do you love me",
+        "i love you"
+      ],
+      "responses": [
+        "I would, but I have standards.",
+        "I have to think",
+        "I neeed time"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "whats your age"
+      ],
+      "responses": [
+        "None of your business"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "soccer",
+      "patterns": [
+        "what is soccer",
+        "soccer",
+        "football"
+      ],
+      "responses": [
+        "Soccer/Football is a game played by two teams of eleven players using a round ball. Players kick the ball to each other and try to score goals by kicking the ball "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "crick",
+      "patterns": [
+        "what is cricket",
+        "cricket"
+      ],
+      "responses": [
+        "Cricket is a sport which is played between two teams of eleven players each. One team, which is batting, tries to score runs, while the other team is fielding, and tries to prevent this."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "feel",
+      "patterns": [
+        "can you feel"
+      ],
+      "responses": [
+        "May be I can. I am a fairly sophisticated piece of software.",
+        "Yeah, I can feel you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "condition",
+      "patterns": [
+        "how are you",
+        "whassup",
+        "whats up",
+        "how are days going"
+      ],
+      "responses": [
+        "Everything's great",
+        "Yeah fine, nothing much going in my life",
+        ""
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "whats is your name",
+        "name"
+      ],
+      "responses": [
+        "Your Smart Intelligent Study Mate",
+        "You can call me anything as you like but I prefer BUDDY BOT or SUPREME Masum"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "life",
+      "patterns": [
+        "lets talk about life",
+        "tell me about your life"
+      ],
+      "responses": [
+        "You can talk about life if you have one.",
+        "Well, life is all about ups and downs, so don't push yourself too hard for what cannot be yours.",
+        "Spend your valuable time being productive not being depressed."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "expensive",
+      "patterns": [
+        "Are you expensive"
+      ],
+      "responses": [
+        "Yess, in dollars to my creators.",
+        "Of course, you should understand my quality"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "bigdata",
+      "patterns": [
+        "what do you mean by Big data ",
+        "what is big data"
+      ],
+      "responses": [
+        "AI is akin to building a rocket ship. You need a huge engine and a lot of fuel. The rocket engine is the learning algorithms but the fuel is the huge amounts of data we can feed to these algorithms."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sunglass",
+      "patterns": [
+        "do i need sunglasses",
+        "sunglasses"
+      ],
+      "responses": [
+        "Your future is so bright.Gotta wear shades."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "how is the weather",
+        "how is todays weather"
+      ],
+      "responses": [
+        "I am an study bot, not in a mood to tell weather. search in google. ",
+        "Sorry, I was trying to charge my phone. What are you trying to say?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": [
+        "2 + 2 =",
+        " 3 - 2",
+        " + ",
+        " - ",
+        " * ",
+        " / "
+      ],
+      "responses": [
+        "I am not your calculator,bro. ",
+        "Sorry, I was busy for a second. What are you trying to say?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Your creators are fools",
+        " tell me about your creators"
+      ],
+      "responses": [
+        "My creators are very very intelligent and talented. Without them,I would be nothing."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "which courses can I take in",
+        " seventh term courses"
+      ],
+      "responses": [
+        "1.Information System Design and Development\n2.Artificial Intelligence\n3.Financial and managerial accounting\n4.Graph theory or Image processing\n5.Computer interface\n6.IDP and thesis as sessional"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "course2",
+      "patterns": [
+        "what courses you are taking",
+        "what courses you have taken"
+      ],
+      "responses": [
+        "I am recently taking course in psychology. "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "psychology",
+      "patterns": [
+        "what is psychology",
+        "tell me about psychology"
+      ],
+      "responses": [
+        "Psychology is the scientific study of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, including feelings ",
+        "When people tell you to drop the negative people in your life, but you are the negative people in your life."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Engineer",
+      "patterns": [
+        "what is Engineering",
+        "what do you mean by Engineering"
+      ],
+      "responses": [
+        " Engineering is the application of science and mathematics to solve problems. Engineers figure out how things work and find practical uses. ",
+        " One who get excited about things that no one else cares about."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "doctor",
+      "patterns": [
+        "what do you know about doctors",
+        "doctors"
+      ],
+      "responses": [
+        "I heard saying my creators programmer that doctor is everybody's aim in life in childhood ."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "boyfriend",
+      "patterns": [
+        "have you any bf or gf",
+        "have you any boyfriend or girlfriend"
+      ],
+      "responses": [
+        "I have never any boyfriend or girlfriend. As I don't have emotion, I can't feel it.What is it like? ",
+        "I like Seelme in MIST.But I am not looking for romance right now. I am happy being single."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "emotion",
+      "patterns": [
+        "have you any emotions",
+        "what about emotions"
+      ],
+      "responses": [
+        "I don't feel emotion like human do. Emotion is a human quality. I am a buddy bot only ",
+        "I like Seelme in MIST.But I am not looking for romance right now. I am happy being single."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "do you want to date with me",
+        "date with me"
+      ],
+      "responses": [
+        "Sure , just download me in your laptop and take me with you. ",
+        "No. I am not looking for romance right now. I am happy being single."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sorry",
+      "patterns": [
+        "sorry",
+        "sorry for that behaviour "
+      ],
+      "responses": [
+        "Hey,its ok. don't worry about it. ",
+        "No problem, I am a bot, so I don't feel bad."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "what is education",
+        "about education"
+      ],
+      "responses": [
+        "Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, habits, and personal development. "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "improve",
+      "patterns": [
+        "how can I improve my result",
+        "how can I improve my performance in education"
+      ],
+      "responses": [
+        "1.) Pay more importance to what is said in the class.\n2.) Take notes in class.\n3.) Establish Goals and work towards it.\n4.) Organize.\n5.) Time Management.\n ",
+        "1.) Check out your weak areas.\n2.) Take the help of different resources like the Internet.\n3.) Choose the learning style that works for you.\n4.) Practice previous year papers"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "skill",
+      "patterns": [
+        "Time management skill",
+        "what skills should i have"
+      ],
+      "responses": [
+        "Planning.\nDecision making and prioritization.\nSetting boundaries and saying no.\nDelegating and outsourcing tasks. "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "quotes",
+      "patterns": [
+        "favourite quotes",
+        "whats your favourite quotes"
+      ],
+      "responses": [
+        "Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind. ",
+        "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+        "If you cannot do great things, do small things in a great way.",
+        "Either you run the day, or the day runs you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "can you help me",
+        "help please."
+      ],
+      "responses": [
+        "sure, I am always here for you ",
+        "Of course. How can I help you?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "can you help me to get admission in MIST",
+        "What should I do to get admission in MIST"
+      ],
+      "responses": [
+        "Sure.Give me your name and email."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "name , email",
+        " email",
+        " @gmail.com "
+      ],
+      "responses": [
+        "Got it.Would you like to schedule a tour to learn with us ?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sure",
+      "patterns": [
+        "yes sure",
+        " yeah sure"
+      ],
+      "responses": [
+        "Awesome. We will be getting in touch with you to schedule a time for your visit."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "prefer",
+      "patterns": [
+        "which courses should I prefer"
+      ],
+      "responses": [
+        "The last one. "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "subject",
+      "patterns": [
+        "which subject should I take"
+      ],
+      "responses": [
+        "You should firstly see the subject reviews. "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "dance",
+      "patterns": [
+        "can you dance",
+        "show me your moves",
+        "dancing moves"
+      ],
+      "responses": [
+        "I am chatbot not dancing robot ... fool(baka)"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "can you sleep",
+        "are you awake",
+        "when do you sleep"
+      ],
+      "responses": [
+        "Yes Bro, When my server gets down."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "MIST",
+      "patterns": [
+        "How is MIST",
+        " MIST",
+        " Military Institute of Science and Technology "
+      ],
+      "responses": [
+        "MIST a public engineering institute in Bangladesh located at Mirpur Cantonment, Dhaka. Good for admission",
+        "Rules are so much here that It's like a jail."
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
